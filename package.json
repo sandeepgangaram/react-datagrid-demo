@@ -1,0 +1,29 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.7",
+    "@mui/x-data-grid": "^5.13.0",
+    "axios": "^0.27.2",
+    "core-js": "^3.23.3",
+    "parcel": "^2.6.2",
+    "react": "^17.0.2",
+    "react-data-table-component": "^7.5.2",
+    "react-dom": "^17.0.2",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "process": "^0.11.10"
+  }
+}
