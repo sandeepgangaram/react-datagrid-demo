@@ -9,6 +9,8 @@ const countInState = function (state, arr) {
   });
   return count;
 };
+
+
 const App = () => {
   const [entries, setEntries] = useState([]);
   useEffect(async () => {
@@ -20,6 +22,8 @@ const App = () => {
 
     setEntries(dataArr);
   }, []);
+
+  
   return (
     <>
       <h1>Open Brewery Data</h1>
