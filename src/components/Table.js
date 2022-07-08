@@ -28,7 +28,7 @@ export default function Table({ entries }) {
     <div
       style={{
         height: 635,
-        width: "70%",
+        width: "75%",
         border: "1px solid grey",
       }}
     >
